@@ -104,9 +104,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a916a7f3c1f700d3445ea35aab574a779"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a916a7f3c1f700d3445ea35aab574a779"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>commandType</b></td></tr>
 <tr class="separator:a916a7f3c1f700d3445ea35aab574a779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc823166f6e233a58505d8a024d836dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc823166f6e233a58505d8a024d836dc"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>params</b> [MAX_MESH_MESSAGE_PAYLOAD_LENGTH-sizeof(uint16_t)]</td></tr>
-<tr class="separator:afc823166f6e233a58505d8a024d836dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddfb485a4167add01e97a3c89c130cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adddfb485a4167add01e97a3c89c130cb"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>params</b> [MAX_MESH_MESSAGE_PAYLOAD_LENGTH-COMMAND_MM_HEADER_SIZE]</td></tr>
+<tr class="separator:adddfb485a4167add01e97a3c89c130cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Command mesh message. </p>
